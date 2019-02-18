@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Failed suite [HRM Automation]" duration-ms="20731" started-at="2019-02-13T11:41:03Z" finished-at="2019-02-13T11:41:23Z">
+  <suite name="Default suite" duration-ms="22207" started-at="2019-02-18T13:08:13Z" finished-at="2019-02-18T13:08:35Z">
     <groups>
     </groups>
-    <test name="TestScripts(failed)" duration-ms="20731" started-at="2019-02-13T11:41:03Z" finished-at="2019-02-13T11:41:23Z">
+    <test name="Default test" duration-ms="22207" started-at="2019-02-18T13:08:13Z" finished-at="2019-02-18T13:08:35Z">
       <class name="TestScripts.TC2_AddEmp">
-        <test-method status="PASS" signature="AddEmployee()[pri:0, instance:TestScripts.TC2_AddEmp@1ce4f0a]" name="AddEmployee" duration-ms="20698" started-at="2019-02-13T11:41:03Z" finished-at="2019-02-13T11:41:23Z">
+        <test-method status="PASS" signature="AddEmployee()[pri:0, instance:TestScripts.TC2_AddEmp@1832929]" name="AddEmployee" duration-ms="22171" started-at="2019-02-18T13:08:13Z" finished-at="2019-02-18T13:08:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEmployee -->
       </class> <!-- TestScripts.TC2_AddEmp -->
-    </test> <!-- TestScripts(failed) -->
-  </suite> <!-- Failed suite [HRM Automation] -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

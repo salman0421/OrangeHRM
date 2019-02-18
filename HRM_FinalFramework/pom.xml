@@ -1,56 +1,40 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>HRM</groupId>
-  <artifactId>HRM_FinalFramework</artifactId>
-  <version>1.0</version>
-  <dependencies>
-  
-  <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
-<dependency>
-    <groupId>org.seleniumhq.selenium</groupId>
-    <artifactId>selenium-java</artifactId>
-    <version>3.141.59</version>
-</dependency>
- 
-    <dependency>
-	  <groupId>org.testng</groupId>
-	  <artifactId>testng</artifactId>
-	  <version>6.14.3</version>
-	  <scope>test</scope>
-	</dependency>
-	<!-- https://mvnrepository.com/artifact/org.apache.maven/maven-plugin-api -->
-<dependency>
-    <groupId>org.apache.maven</groupId>
-    <artifactId>maven-plugin-api</artifactId>
-    <version>3.6.0</version>
-</dependency>
-	
-    
-  </dependencies>
-  <build>
-            <plugins>
-                     <plugin>
-                           <groupId>org.apache.maven.plugins</groupId>
-                           <artifactId>maven-compiler-plugin</artifactId>
-                           <version>3.8.0</version>
-                           <configuration>
-                                  <source>1.7</source>
-                                  <target>1.7</target>
-                           </configuration>
-                     </plugin>
-                     <plugin>
-                           <groupId>org.apache.maven.plugins</groupId>
-                           <artifactId>maven-surefire-plugin</artifactId>
-                           <version>2.18.1</version>
-                           <configuration>
-                                  <suiteXmlFiles>
-                                         <suiteXmlFile>suite.xml</suiteXmlFile>
-                                         <suiteXmlFile>suiteTest.xml</suiteXmlFile>                                         
-                                  </suiteXmlFiles>
-                           </configuration>
-                     </plugin>
-                     
-              </plugins>
-       </build>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
+	<groupId>FreeCRMTestAutomation</groupId>
+	<artifactId>FreeCRMTest</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>FreeCRMTest</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		 <maven.compiler.source>1.6</maven.compiler.source>
+                  <maven.compiler.target>1.6</maven.compiler.target>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.14.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.11</version>
+			<scope>compile</scope>
+		</dependency>
+
+
+		
+
+
+
+	</dependencies>
 </project>
